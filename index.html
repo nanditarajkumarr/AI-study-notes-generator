@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Notes Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Study Notes Generator 🧠</h1>
+        <p>Convert long paragraphs into short and easy-to-read study notes.</p>
+    </header>
+    <main>
+        <section class="input-section">
+            <label for="input-text">Paste your study material here:</label>
+            <textarea id="input-text" placeholder="Enter your text here..."></textarea>
+            <button id="generate-btn">Generate Notes</button>
+        </section>
+        <section class="output-section">
+            <h2>Generated Notes</h2>
+            <div id="notes-output"></div>
+            <button id="copy-btn" style="display: none;">Copy Notes</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
